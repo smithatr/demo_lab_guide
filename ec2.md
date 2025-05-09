@@ -14,6 +14,7 @@ In this lab, you will be able to complete the following tasks:
 - Launch an EC2 instance in the AWS Management Console.
 - Connect to the instance using SSH (Linux).
 
+
 #### Task 01: Create an EC2 instance
 
 In this task, we will launch an Amazon Linux EC2 instance
@@ -27,6 +28,18 @@ In this task, we will launch an Amazon Linux EC2 instance
 4. To securely connect to your EC2 instance, create a new key pair. **Enter a Key Pair Name ** (1) (example: xyz). In **Choose Key Pair Type** , select **RSA** (2). Choose **.pem** (3) in the **Select Private Key Format**. Then click **Create key pair** (4). ![EC2 Setup Step 3](images/4.png)
 
 5. After setting up the instance details and key pair, leave all other configurations as default and click on **Launch instance** (1) to create and start your EC2 instance.  ![EC2 Setup Step 3](images/5.png)
+   
+### Task 2: Connect to the EC2 instance
+
+In this task, we will connect to our new EC2 instance using EC2 Connect.
+
+1. In order to connect your instance, Go back to the **Instances** section from the EC2 Dashboard. Select the **EC2 instance** (1)  you createdby checking the box next to its name. Make sure the instance is in the Running state. Click the **Connect** (2) button at the top.   ![EC2 Setup Step 3](images/6.png)
+
+2. After connect we will be redirected to the page as show. Under Connection Type, select the option **Connect using EC2 Instance Connect** (1), make sure the Public IPv4 address is selected. Click the orange **Connect** button at the bottom right.  ![EC2 Setup Step 3](images/7.png)
+
+3. We're now successfully connected to your Amazon Linux EC2 instance using EC2 Instance Connect.  ![EC2 Setup Step 3](images/8.png)
+   
+
 
 
 
