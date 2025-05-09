@@ -18,4 +18,5 @@ In this lab, you will be able to complete the following tasks:
 
 In this task, we will launch an Amazon Linux EC2 instance
 
-1. On the **AWS Management Console**, use the search bar at the top to enter **EC2** (1), then select **EC2** (2) under Services to open the EC2 Dashboard.
+1. On the **AWS Management Console**, use the search bar at the top to enter **EC2** (1), then select **EC2** (2) under Services to open the EC2 Dashboard. ![My EC2 Launch Image](images/1%20(1).png)
+
