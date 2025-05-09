@@ -20,27 +20,36 @@ In this lab, you will be able to complete the following tasks:
 In this task, we will launch an Amazon Linux EC2 instance
 
 1. On the **AWS Management Console**, use the search bar at the top to enter **EC2** (1), then select **EC2** (2) under Services to open the EC2 Dashboard.
-   <img src="images/1%20(1).png" alt="My EC2 Launch Image" width="650" height="450">
+   
+<img src="images/1%20(1).png" alt="My EC2 Launch Image" width="650" height="450">
+
 2. In the **Name and tags** (1) section, locate the Name field, type a name for your EC2 instance (example: MyFirstEC2Instance). In the **Application and OS Images (Amazon Machine Image)**, under the Quick Start tab, click on **Amazon Linux** (2).
+   
 <img src="images/2.png" alt="EC2 Setup Step 2" width="650" height="450">  
   
 3. In **Select Instance Type** (1), choose t2.micro (1 vCPU, 1 GiB Memory), which is Free tier eligible. Under Key pair (login), click on **Create new key pair** (2).
+
 <img src="images/3.png" alt="EC2 Setup Step 3" width="650" height="450">
 
 4. To securely connect to your EC2 instance, create a new key pair. **Enter a Key Pair Name ** (1) (example: xyz). In **Choose Key Pair Type** , select **RSA** (2). Choose **.pem** (3) in the **Select Private Key Format**. Then click **Create key pair** (4).
+   
 <img src="images/4.png" alt="EC2 Setup Step 4" width="650" height="450">
 
-6. After setting up the instance details and key pair, leave all other configurations as default and click on **Launch instance** (1) to create and start your EC2 instance.  ![EC2 Setup Step 3](images/5.png)
+5. After setting up the instance details and key pair, leave all other configurations as default and click on **Launch instance** (1) to create and start your EC2 instance.
+<img src="images/5.png" alt="EC2 Setup Step 5" width="650" height="450">
    
 ### Task 2: Connect to the EC2 instance
 
 In this task, we will connect to our new EC2 instance using EC2 Connect.
 
-1. In order to connect your instance, Go back to the **Instances** section from the EC2 Dashboard. Select the **EC2 instance** (1)  you createdby checking the box next to its name. Make sure the instance is in the Running state. Click the **Connect** (2) button at the top.   ![EC2 Setup Step 3](images/6.png)
+1. In order to connect your instance, Go back to the **Instances** section from the EC2 Dashboard. Select the **EC2 instance** (1)  you createdby checking the box next to its name. Make sure the instance is in the Running state. Click the **Connect** (2) button at the top.
+   <img src="images/6.png" alt="EC2 Setup Step 5" width="650" height="450"> 
 
-2. After connect we will be redirected to the page as show. Under Connection Type, select the option **Connect using EC2 Instance Connect** (1), make sure the Public IPv4 address is selected. Click the orange **Connect** button at the bottom right.  ![EC2 Setup Step 3](images/7.png)
+2. After connect we will be redirected to the page as show. Under Connection Type, select the option **Connect using EC2 Instance Connect** (1), make sure the Public IPv4 address is selected. Click the orange **Connect** button at the bottom right.
+   <img src="images/7.png" alt="EC2 Setup Step 5" width="650" height="450">
 
-3. We're now successfully connected to your Amazon Linux EC2 instance using EC2 Instance Connect.  ![EC2 Setup Step 3](images/8.png)
+3. We're now successfully connected to your Amazon Linux EC2 instance using EC2 Instance Connect.
+   <img src="images/8.png" alt="EC2 Setup Step 5" width="650" height="450">
    
 
 
