@@ -19,15 +19,18 @@ In this lab, you will be able to complete the following tasks:
 
 In this task, we will launch an Amazon Linux EC2 instance
 
-1. On the **AWS Management Console**, use the search bar at the top to enter **EC2** (1), then select **EC2** (2) under Services to open the EC2 Dashboard. ![My EC2 Launch Image](images/1%20(1).png)
-   
-2. In the **Name and tags** (1) section, locate the Name field, type a name for your EC2 instance (example: MyFirstEC2Instance). In the **Application and OS Images (Amazon Machine Image)**, under the Quick Start tab, click on **Amazon Linux** (2). ![EC2 Setup Step 2](images/2.png)
+1. On the **AWS Management Console**, use the search bar at the top to enter **EC2** (1), then select **EC2** (2) under Services to open the EC2 Dashboard.
+   <img src="images/1%20(1).png" alt="My EC2 Launch Image" width="650" height="450">
+2. In the **Name and tags** (1) section, locate the Name field, type a name for your EC2 instance (example: MyFirstEC2Instance). In the **Application and OS Images (Amazon Machine Image)**, under the Quick Start tab, click on **Amazon Linux** (2).
+<img src="images/2.png" alt="EC2 Setup Step 2" width="650" height="450">  
   
-3. In **Select Instance Type** (1), choose t2.micro (1 vCPU, 1 GiB Memory), which is Free tier eligible. Under Key pair (login), click on **Create new key pair** (2). ![EC2 Setup Step 3](images/3.png)
+3. In **Select Instance Type** (1), choose t2.micro (1 vCPU, 1 GiB Memory), which is Free tier eligible. Under Key pair (login), click on **Create new key pair** (2).
+<img src="images/3.png" alt="EC2 Setup Step 3" width="650" height="450">
 
-4. To securely connect to your EC2 instance, create a new key pair. **Enter a Key Pair Name ** (1) (example: xyz). In **Choose Key Pair Type** , select **RSA** (2). Choose **.pem** (3) in the **Select Private Key Format**. Then click **Create key pair** (4). ![EC2 Setup Step 3](images/4.png)
+4. To securely connect to your EC2 instance, create a new key pair. **Enter a Key Pair Name ** (1) (example: xyz). In **Choose Key Pair Type** , select **RSA** (2). Choose **.pem** (3) in the **Select Private Key Format**. Then click **Create key pair** (4).
+<img src="images/4.png" alt="EC2 Setup Step 4" width="650" height="450">
 
-5. After setting up the instance details and key pair, leave all other configurations as default and click on **Launch instance** (1) to create and start your EC2 instance.  ![EC2 Setup Step 3](images/5.png)
+6. After setting up the instance details and key pair, leave all other configurations as default and click on **Launch instance** (1) to create and start your EC2 instance.  ![EC2 Setup Step 3](images/5.png)
    
 ### Task 2: Connect to the EC2 instance
 
