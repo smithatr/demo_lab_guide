@@ -25,7 +25,7 @@ In this task, we will launch an Amazon Linux EC2 instance
 
 2. In the **Name and tags** (1) section, locate the Name field, type a name for your EC2 instance (example: MyFirstEC2Instance). In the **Application and OS Images (Amazon Machine Image)**, under the Quick Start tab, click on **Amazon Linux** (2).
    
-<img src="images/2.png" alt="EC2 Setup Step 2" width="650" height="450">  
+<img src="images/2.png" alt="EC2 Setup Step 2" width="650" height="450">
   
 3. In **Select Instance Type** (1), choose t2.micro (1 vCPU, 1 GiB Memory), which is Free tier eligible. Under Key pair (login), click on **Create new key pair** (2).
 
