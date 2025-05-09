@@ -26,5 +26,18 @@ In this task, we will launch an Amazon Linux EC2 instance
 
 4. To securely connect to your EC2 instance, create a new key pair. **Enter a Key Pair Name ** (1) (example: xyz). In **Choose Key Pair Type** , select **RSA** (2). Choose **.pem** (3) in the **Select Private Key Format**. Then click **Create key pair** (4). ![EC2 Setup Step 3](images/4.png)
 
+5. After setting up the instance details and key pair, leave all other configurations as default and click on **Launch instance** (1) to create and start your EC2 instance.  ![EC2 Setup Step 3](images/5.png)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
