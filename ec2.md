@@ -19,4 +19,5 @@ In this lab, you will be able to complete the following tasks:
 In this task, we will launch an Amazon Linux EC2 instance
 
 1. On the **AWS Management Console**, use the search bar at the top to enter **EC2** (1), then select **EC2** (2) under Services to open the EC2 Dashboard. ![My EC2 Launch Image](images/1%20(1).png)
+2. In the **Name and tags**(1) section, locate the Name field, type a name for your EC2 instance (example: MyFirstEC2Instance). In the **Application and OS Images (Amazon Machine Image)**, under the Quick Start tab, click on **Amazon Linux**(2). 
 
