@@ -24,5 +24,7 @@ In this task, we will launch an Amazon Linux EC2 instance
   
 3. In **Select Instance Type** (1), choose t2.micro (1 vCPU, 1 GiB Memory), which is Free tier eligible. Under Key pair (login), click on **Create new key pair** (2). ![EC2 Setup Step 3](images/3.png)
 
+4. To securely connect to your EC2 instance, create a new key pair. **Enter a Key Pair Name ** (1) (example: xyz). In **Choose Key Pair Type** , select **RSA** (2). Choose **.pem** (3) in the **Select Private Key Format**. Then click **Create key pair** (4). ![EC2 Setup Step 3](images/4.png)
+
 
 
